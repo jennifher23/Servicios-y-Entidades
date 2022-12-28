@@ -1,0 +1,136 @@
+<!-- <header style="background-color:rgb(112, 141, 196);">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-1 ">
+                <img class="pb-1 m-2" id="logo"
+                    src="../assets/logo-header.png" alt="">
+            </div>
+            <div class="col-10 mt-4">
+                <h1>Ejercicio 01</h1>
+            </div>
+        </div>
+    </div>
+</header>
+ -->
+<!-- ============================================================== -->
+<!-- Topbar header - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<header class="topbar">
+  <nav class="navbar top-navbar navbar-expand-md navbar-light">
+    <!-- ============================================================== -->
+    <!-- Logo -->
+    <!-- ============================================================== -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">
+        <b>
+          <img
+            src="./assets/images/logo-icon.png"
+            alt="homepage"
+            class="dark-logo"
+          />
+        </b>
+      </a>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Logo -->
+    <!-- ============================================================== -->
+    <div class="navbar-collapse">
+      <!-- ============================================================== -->
+      <!-- toggle and nav items -->
+      <!-- ============================================================== -->
+      <ul class="navbar-nav mr-auto">
+        <!-- This is  -->
+        <li class="nav-item">
+          <a
+            class="nav-link nav-toggler hidden-md-up waves-effect waves-dark"
+            href="javascript:void(0)"
+            ><i class="ti-menu"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link sidebartoggler hidden-sm-down waves-effect waves-dark"
+            href="javascript:void(0)"
+            ><i class="ti-menu"></i
+          ></a>
+        </li>
+        <li class="nav-item hidden-sm-down"></li>
+      </ul>
+      <!-- ============================================================== -->
+      <!-- User profile and search -->
+      <!-- ============================================================== -->
+      <ul class="navbar-nav my-lg-0">
+        <li class="nav-item hidden-xs-down search-box">
+          <a
+            class="nav-link hidden-sm-down waves-effect waves-dark"
+            href="javascript:void(0)"
+            ><i class="ti-search"></i
+          ></a>
+          <form class="app-search">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search & enter"
+            />
+            <a class="srh-btn"><i class="ti-close"></i></a>
+          </form>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle waves-effect waves-dark"
+            href=""
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            ><img
+              src="./assets/images/users/perfil.png"
+              alt="user"
+              class="profile-pic"
+          /></a>
+          <div class="dropdown-menu dropdown-menu-right animated fadeIn">
+            <ul class="dropdown-user">
+              <li>
+                <div class="dw-user-box">
+                  <div class="u-img">
+                    <img src="./assets/images/users/perfil.png" alt="user" />
+                  </div>
+                  <div class="u-text">
+                    <h4>Jennifer Guzñay</h4>
+                    <p class="text-muted">jenni@gmail.com</p>
+                    <a
+                      href="pages-profile.html"
+                      class="btn btn-rounded btn-danger btn-sm"
+                      >Ver Perfil</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li>
+                <a href="#"><i class="ti-user"></i> Mi Perfil</a>
+              </li>
+              <li>
+                <a href="#"><i class="ti-lock"></i> Cambiar contraseña</a>
+              </li>
+              <li>
+                <a href="#"><i class="ti-credit-card"></i>Mi Tarjeta</a>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li>
+                <a href="#"><i class="ti-settings"></i> Configuración</a>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li>
+                <a href="#"><i class="fa fa-power-off"></i> Cerrar Seción</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!-- ============================================================== -->
+<!-- End Topbar header -->
+<!-- ============================================================== -->
